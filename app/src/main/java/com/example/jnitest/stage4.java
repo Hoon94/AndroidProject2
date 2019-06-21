@@ -121,4 +121,9 @@ public class stage4 extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public void onBackPressed(){
+
+    }
+
 }

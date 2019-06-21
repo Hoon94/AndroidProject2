@@ -42,13 +42,6 @@ public class stage2 extends AppCompatActivity {
         piezoButton = new Button[8];
         piezoInput = (TextView)findViewById(R.id.piezoInput);
 
-        //piezoInput.setText(piezoQuestionString);
-        piezoQuestion[0] = 4;
-        piezoQuestion[1] = 7;
-        piezoQuestion[2] = 2;
-        piezoQuestion[3] = 5;
-        piezoQuestionString = "파시레솔";
-
         piezoButton[0] = (Button)findViewById(R.id.Do);
         piezoButton[1] = (Button)findViewById(R.id.re);
         piezoButton[2] = (Button)findViewById(R.id.mi);
